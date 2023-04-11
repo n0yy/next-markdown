@@ -1,8 +1,5 @@
-import { Inter } from "next/font/google";
 import ListsPost from "@/components/ListsPost";
-import { getPostsData } from "@/lib/Posts";
-
-const inter = Inter({ subsets: ["latin"] });
+import { getPostsData } from "@/lib/getPosts";
 
 export default function Home() {
   const posts = getPostsData();

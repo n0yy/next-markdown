@@ -1,4 +1,5 @@
-import { getPostsData, getPost } from "@/lib/posts";
+import { getPostsData } from "@/lib/getPosts";
+import { getPost } from "@/lib/getPost";
 import Markdown from "markdown-to-jsx";
 import { notFound } from "next/navigation";
 
@@ -11,7 +12,7 @@ export default function Post({ params }) {
   const post = getPost(slug);
 
   return (
-    <article className="prose lg:prose-xl min-h-screen mx-auto p-10 mt-10 max-w-none w-[900px] overflow-hidden">
+    <article className="prose lg:prose-xl min-h-screen mx-auto p-10 mt-10 max-w-none w-[500px] md:w-[700px] lg:w-[900px] overflow-hidden">
       <header className="border-b-2 pb-10">
         <h1 className="underline underline-offset-[5px]">{post.title}</h1>
         <h3 className="font-thin">{post.subTitle}</h3>
