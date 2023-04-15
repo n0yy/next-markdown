@@ -12,11 +12,13 @@ export default function Post({ params }) {
   const post = getPost(slug);
 
   return (
-    <article className="prose lg:prose-xl min-h-screen mx-auto p-10 mt-10 max-w-none w-[500px] md:w-[700px] lg:w-[900px] overflow-hidden">
+    <article className="prose-lg lg:prose-xl min-h-screen mx-auto p-10 mt-10 max-w-none md:w-[700px] lg:w-[900px] overflow-hidden prose-headings:text-indigo-600 prose-pre:bg-indigo-900 prose-pre:text-indigo-50">
       <header className="border-b-2 pb-10">
         <h1 className="underline underline-offset-[5px]">{post.title}</h1>
         <h3 className="font-thin">{post.subTitle}</h3>
-        <span className="text-sm">{post.date}</span>
+        <span className="block text-sm not-prose text-end text-zinc-400">
+          {post.date}
+        </span>
       </header>
       <main className="mt-10">
         <Markdown>{post.content}</Markdown>
