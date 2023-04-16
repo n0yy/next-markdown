@@ -1,10 +1,12 @@
 ---
-title: "How to Become Machine Learing Engineer"
-subtitle: "A Roadmap for those of you who want to become machine learning engineers"
+title: "How to Become Machine Learning Engineer"
+subtitle: "A Roadmap for those of you who want to become Machine Learning Engineers"
 date: "Sabtu, 15 April 2023"
 ---
 
-**Machine Learning** adalah teknologi yang sedang naik daun dalam beberapa tahun terakhir. Ini adalah salah satu sub-bidang kecerdasan buatan atau _Artificial Inteligence_ yang memungkinkan komputer untuk belajar dari data yang ada dan menghasilkan prediksi atau keputusan yang berdasarkan pada pola yang ditemukan dalam data tersebut. Machine learning udah digunain di banyak bidang kaya:
+![Vercel Logo](http://localhost:3000/ml.jpg)
+
+**Machine Learning** adalah teknologi yang sedang naik daun dalam beberapa tahun terakhir. Ini adalah salah satu sub-bidang kecerdasan buatan atau <u>Artificial Inteligence</u> yang memungkinkan komputer untuk belajar dari data yang ada dan menghasilkan prediksi atau keputusan yang berdasarkan pada pola yang ditemukan dalam data tersebut. Machine learning udah digunain di banyak bidang kaya:
 
 - Pengenalan gambar
 - Pemrosesan bahasa alami
@@ -28,7 +30,7 @@ Sebelum terjun ke algoritma dan model yang lebih kompleks, Lo harus memahami kon
 
 Terdapat banyak library machine learning populer yang dapat membantu Anda mengimplementasikan algoritma machine learning dengan mudah seperti Scikit-learn, TensorFlow, Keras, dan PyTorch.
 
-> kumpulan kode program yang sudah ditulis sebelumnya oleh pengembang atau komunitas yang tersedia untuk digunakan oleh pengembang lain untuk mempermudah pembuatan program baru.
+> Library adalah kumpulan kode program yang sudah ditulis sebelumnya oleh pengembang atau komunitas yang tersedia untuk digunakan oleh pengembang lain untuk mempermudah pembuatan program baru.
 
 ## 4. Latihan preprocessing data dan visualisasi
 
