@@ -2,6 +2,8 @@ import { getPostsData } from "@/lib/getPosts";
 import { getPost } from "@/lib/getPost";
 import Markdown from "markdown-to-jsx";
 import { notFound } from "next/navigation";
+import Image from "next/image";
+import Link from "next/link";
 
 export default function Post({ params }) {
   const { slug } = params;
@@ -21,7 +23,20 @@ export default function Post({ params }) {
         </span>
       </header>
       <main className="mt-10">
-        <Markdown>{post.content}</Markdown>
+        <Markdown
+          options={{
+            overrides: {
+              img: {
+                component: Image,
+              },
+              a: {
+                component: Link,
+              },
+            },
+          }}
+        >
+          {post.content}
+        </Markdown>
       </main>
     </article>
   );

@@ -4,7 +4,7 @@ subtitle: "A Roadmap for those of you who want to become Machine Learning Engine
 date: "Sabtu, 15 April 2023"
 ---
 
-![Vercel Logo](http://localhost:3000/ml.jpg)
+<img src="/ml.jpg" alt="Machine Learning" width="1200" height="800">
 
 **Machine Learning** adalah teknologi yang sedang naik daun dalam beberapa tahun terakhir. Ini adalah salah satu sub-bidang kecerdasan buatan atau <u>Artificial Inteligence</u> yang memungkinkan komputer untuk belajar dari data yang ada dan menghasilkan prediksi atau keputusan yang berdasarkan pada pola yang ditemukan dalam data tersebut. Machine learning udah digunain di banyak bidang kaya:
 
